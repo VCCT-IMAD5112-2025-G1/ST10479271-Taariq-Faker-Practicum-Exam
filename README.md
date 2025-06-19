@@ -108,7 +108,7 @@ This screen allows the user to enter the songs information in its respective fie
 ![User input screen](https://github.com/user-attachments/assets/592a79a8-ca6a-4a3e-8a0a-1139a73c336b)
 
 
-### Song added COnfirmation message 
+### Song added Confirmation message 
 This message appears once the user has entered information to the playlist
 
 ![Confirmation message f input](https://github.com/user-attachments/assets/22516796-5f8f-4162-91fa-0db564abaab9)
