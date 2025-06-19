@@ -41,6 +41,10 @@ class MainActivity : AppCompatActivity() {
         NextPage.setOnClickListener {
 
             val intent = Intent(this, DetailedViewScreen::class.java)
+            intent.putStringArrayListExtra("songs",songArray)
+            intent.putStringArrayListExtra("Artist",artistArray)
+            intent.putIntegerArrayListExtra("ratings",ratingArray)
+            intent.putStringArrayListExtra("comments",commentsArray)
 
 
         }
@@ -54,44 +58,44 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun AddSongs() {}
-    val dialogView = LayoutInflater.from(this).inflate(R.layout.dialog_add_songs_list, null)
+    private fun AddSongs() {
+        val dialogView = LayoutInflater.from(this).inflate(R.layout.dialog_add_songs_list, null)
 
 
-    val SongInput = dialogView.findViewById<EditText>(R.id.EditTextSong)
-    val ArtistName = dialogView.findViewById<EditText>(R.id.editTextArtist)
-    val RatingInput = dialogView.findViewById<EditText>(R.id.editTextRating)
-    val CommentsInput = dialogView.findViewById<EditText>(R.id.editTextComments)
+        val SongInput = dialogView.findViewById<EditText>(R.id.EditTextSong)
+        val ArtistName = dialogView.findViewById<EditText>(R.id.editTextArtist)
+        val RatingInput = dialogView.findViewById<EditText>(R.id.editTextRating)
+        val CommentsInput = dialogView.findViewById<EditText>(R.id.editTextComments)
 
-    val dialog = AlertDialog.Builder(this)
-        .setTitle("Add Song Name")
-        .setView(dialogView)
-        .setPositiveButton("Add")
-        { _, _ ->
+        val dialog = AlertDialog.Builder(this)
+            .setTitle("Add Song Name")
+            .setView(dialogView)
+            .setPositiveButton("Add")
+            { _, _ ->
 
-            val song = SongInput.text.toString()
-            val artist = ArtistName.text.toString()
-            val Rating = RatingInput.text.toString().toIntOrNull()
-            val Comments = CommentsInput.text.toString()
+                val song = SongInput.text.toString()
+                val artist = ArtistName.text.toString()
+                val Rating = RatingInput.text.toString().toIntOrNull()
+                val Comments = CommentsInput.text.toString()
 
-            if (song.isNotEmpty() && artist.isNotEmpty() && Rating != null && Rating in 1..5) {
-                songArray.add(song)
-                artistArray.add(artist)
-                ratingArray.add(Rating)
-                commentsArray.add(Comments)
+                if (song.isNotEmpty() && artist.isNotEmpty() && Rating != null && Rating in 1..5) {
+                    songArray.add(song)
+                    artistArray.add(artist)
+                    ratingArray.add(Rating)
+                    commentsArray.add(Comments)
 
-                Toast.makeText(this, "Song Added", Toast.LENGTH_SHORT).show()
-            } else {
-                Toast.makeText(this, "Please fill all the field correctly", Toast.LENGTH_SHORT)
-                    .show()
+                    Toast.makeText(this, "Song Added", Toast.LENGTH_SHORT).show()
+                } else {
+                    Toast.makeText(this, "Please fill all the field correctly", Toast.LENGTH_SHORT)
+                        .show()
+                }
             }
-        }
-        .setNegativeButton("Cancel", null)
-        .create()
-
-    dialog.show()
+            .setNegativeButton("Cancel", null)
+            .show()
+            .create()
 
 
+    }
 }
 
 
