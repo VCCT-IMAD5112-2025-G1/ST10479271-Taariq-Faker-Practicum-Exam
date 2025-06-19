@@ -136,4 +136,11 @@ This shows the detailed information in the playlist as well as the average ratin
 ![Error screen on the detailed view](https://github.com/user-attachments/assets/ab31a8a7-91d5-49f5-a080-682868d4cabe)
 
 
+### Source Code Main Page
+![Source Code Main Page](https://github.com/user-attachments/assets/d3b8359c-b63a-41bc-a174-8182f82035a7)
+
+### Source Code Detailed View Page
+
+![Source Code Detailed View Page](https://github.com/user-attachments/assets/b61bc633-9219-46bd-a71e-d1c585d93799)
+
 
