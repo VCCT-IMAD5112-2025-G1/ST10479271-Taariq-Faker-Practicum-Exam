@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
             intent.putIntegerArrayListExtra("ratings",ratingArray)
             intent.putStringArrayListExtra("comments",commentsArray)
 
+            startActivity(intent)
 
         }
 
