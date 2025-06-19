@@ -137,7 +137,8 @@ This shows the detailed information in the playlist as well as the average ratin
 
 
 ### Source Code Main Page
-![Source Code Main Page](https://github.com/user-attachments/assets/d3b8359c-b63a-41bc-a174-8182f82035a7)
+![new mainpage code](https://github.com/user-attachments/assets/ba01ae2a-171f-4fa2-a1d0-0e1b4f84678b)
+
 
 ### Source Code Detailed View Page
 
