@@ -95,19 +95,19 @@ The third button will close the application.
 ![Main Screen](https://github.com/user-attachments/assets/dd582c50-0a58-46c3-aacc-1ea965dae9ad)
 
 
- ###User Song information Input Screen
+ ### User Song information Input Screen
 This screen allows the user to enter the songs information in its respective fields and add them o their playlist once they click the add button.
 
 ![User input screen](https://github.com/user-attachments/assets/592a79a8-ca6a-4a3e-8a0a-1139a73c336b)
 
 
-###Song added COnfirmation message 
+### Song added COnfirmation message 
 This message appears once the user has entered information to the playlist
 
 ![Confirmation message f input](https://github.com/user-attachments/assets/22516796-5f8f-4162-91fa-0db564abaab9)
 
 
-###Detailed View Screen
+### Detailed View Screen
 This is the page the user will be taken to once they click on the next page button on the first screen.
 They will be able to pick between three buttons.
 A detailed view button which will show their playlist information 
@@ -117,13 +117,13 @@ A button to return to the home screen
 ![Detailed view screen ](https://github.com/user-attachments/assets/bdae04a9-7892-404c-b141-17012868463d)
 
 
-###Detailed View Screen and Avearge Rating
+### Detailed View Screen and Avearge Rating
 This shows the detailed information in the playlist as well as the average rating calulated to the user.
 
 ![Detailed view screen with info](https://github.com/user-attachments/assets/21037e49-8e78-4273-a78f-629893ba2a0a)
 
 
-###Error message shown 
+### Error message shown 
  This message appears if there is no information in the playlist or there is no average rating
 
 ![Error screen on the detailed view](https://github.com/user-attachments/assets/ab31a8a7-91d5-49f5-a080-682868d4cabe)
