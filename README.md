@@ -41,18 +41,20 @@ It will calculate the average rating of all the songs in the playslist and provi
 ## Features
 
 1.	Add to Playlist Option
+   
 •	Allows users to add songs to their playlist
 
- 2.Dialog box
+ 3.	Dialog Box
+    
 •	Allows users to enter the information in a dialog box
 
-3.	Instant Feedback
+4.	Instant Feedback
 •	Once the user enter the information the app will immediately display a message showing the user they information has been added
 
-4.	Detailed View Screen 
+5.	Detailed View Screen 
 •	Shows the user their detailed information of their playlist
 
-5.	Average Rating Feature
+6.	Average Rating Feature
 •	Allows to the user to click a average button which will show the user the following:
    -	average rating score 
 
