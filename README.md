@@ -44,24 +44,29 @@ It will calculate the average rating of all the songs in the playslist and provi
    
 •	Allows users to add songs to their playlist
 
- 3.	Dialog Box
+2.	Dialog Box
     
 •	Allows users to enter the information in a dialog box
 
-4.	Instant Feedback
+3.	Instant Feedback
+   
 •	Once the user enter the information the app will immediately display a message showing the user they information has been added
 
-5.	Detailed View Screen 
+4.	Detailed View Screen
+   
 •	Shows the user their detailed information of their playlist
 
-6.	Average Rating Feature
+5.	Average Rating Feature
+   
 •	Allows to the user to click a average button which will show the user the following:
    -	average rating score 
 
 6.	Exit Button
+   
 •	Allows the user to close the quiz from the score screen
 
 7.	Home Button
+   
 •	Allows the user to return to the home screen 
 
 ## Design Considerations
